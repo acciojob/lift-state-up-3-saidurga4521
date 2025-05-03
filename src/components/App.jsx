@@ -4,13 +4,13 @@ import { useState } from "react";
 import ChildComponent1 from "./ChildComponent1";
 import ChildComponent2 from "./ChildComponent2";
 const App = () => {
-  const [option, selectedOption] = useState("");
+  const [selectedOption, setSelectedOption] = useState("");
   return (
     <div>
       <div className="parent">
-        <ChildComponent1 option={option} selectedOption={selectedOption} />
-        <ChildComponent2 option={option} selectedOption={selectedOption} />
-        <p>Selected Option:{option}</p>
+        <ChildComponent1 setSelectedOption={setSelectedOption} />
+        <ChildComponent2 setSelectedOption={setSelectedOption} />
+        <p>Selected Option:{selectedOption}</p>
       </div>
     </div>
   );
