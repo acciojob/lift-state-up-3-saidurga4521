@@ -8,7 +8,7 @@ const ChildComponent2 = ({ setSelectedOption }) => {
           setSelectedOption("Option2");
         }}
       >
-        Option2
+        Option 2
       </button>
     </div>
   );
