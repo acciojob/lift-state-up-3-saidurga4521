@@ -5,7 +5,7 @@ const ChildComponent2 = ({ setSelectedOption }) => {
     <div>
       <button
         onClick={() => {
-          setSelectedOption("Option2");
+          setSelectedOption("Option 2");
         }}
       >
         Option 2
