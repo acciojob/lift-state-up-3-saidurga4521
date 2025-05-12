@@ -11,7 +11,7 @@ const App = () => {
         <h1>Parent Component</h1>
         <ChildComponent1 setSelectedOption={setSelectedOption} />
         <ChildComponent2 setSelectedOption={setSelectedOption} />
-        <h1>Selected Option:{selectedOption}</h1>
+        <p>Selected Option:{selectedOption}</p>
       </div>
     </div>
   );
